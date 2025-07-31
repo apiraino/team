@@ -1,0 +1,32 @@
+name = "rust-backends"
+kind = "marker-team"
+
+[people]
+leads = ["GuillaumeGomez"]
+members = [
+    "GuillaumeGomez",
+    "antoyo",
+    "bjorn3",
+    "cuviper",
+    "dianqk",
+    "nagisa",
+    "nikic",
+    "oli-obk",
+]
+alumni = []
+
+[permissions]
+bors.rust.review = true
+
+[website]
+name = "rustc-backends"
+description = "All the rustc backends"
+
+[[zulip-streams]]
+name = "rustc-codegen-gcc"
+
+[[zulip-streams]]
+name = "t-compiler/llvm"
+
+[[github]]
+orgs = ["rust-lang"]
